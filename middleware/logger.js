@@ -1,5 +1,5 @@
 const logger = (req, res, next) => {
-    comsole.log(`Request: ${req.method} ${req.url}`);
+    console.log(`Request: ${req.method} ${req.url}`);
     next();
 };
-modules.exports = logger;
+module.exports = logger;
